@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+html {
+  cursor: url('./img/hi.jpeg'), auto;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-family: "DotGothic16", serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+.main {
+  margin: 20% 30% 35%;
+}
+.title {
+  display: inline-block;
+  padding: 5%;
+  font-size: 3rem;
+  border: 3px solid rgb(71, 71, 71);
+  background-color: rgb(230, 230, 230);
+  color: rgb(34, 34, 34);
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.art h2 {
+  font-size: 3rem;
+}
+.art p {
+  font-size: 2rem;
+}
+.title, .main-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-img img {
+  width: 25%;
+}
+.main-img .syu {
+  width: 20%;
+  height: 20%;
+}
+
+.text {
+  padding: 30% 0;
+}
+.text p {
+  font-size: 1.5rem;
+  padding: 5% 0;
+}
+.sye {
+  position: absolute;
+  right: 20%;
+  width: 10%;
+}
+.gi {
+  position: absolute;
+  left: 20%;
+  width: 12%;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+.f-text p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+footer img {
+  width: 7%;
+  height: 7%;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .art h2 {
+    font-size: 2rem;
+  }
+  .art p {
+    font-size: 1.5rem;
+  }
+  .main {
+    margin: 30% 20%;
+  }
+  .main-img img {
+    width: 32%;
+  }
+  .main-img .syu {
+    width: 28%;
+    height: 28%;
+  }
+  .sye {
+    right: 12%;
+    width: 20%;
+  }
+  .gi {
+    left: 12%;
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    margin: 30% 15%;
+  }
+  .art h2,.art p,.text p,.f-text p {
+    font-size: 1rem;
+  }
+}
